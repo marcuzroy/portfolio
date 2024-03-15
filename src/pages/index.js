@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Marc Roy Portfolio</title>
+        <title>Marc Portfolio</title>
         <meta
           name="description"
           content="Explore CodeBucks's Next.js developer portfolio and 
@@ -41,11 +41,11 @@ export default function Home() {
             </div>
             <div className="flex w-1/2 flex-col items-center self-center lg:w-full lg:text-center">
               <AnimatedText
-                text="Turning vision into reality with code and design."
+                text="Crafting logic into art, one line of code at a time."
                 className="!text-left !text-6xl xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl"
               />
               <p className="my-4 text-base font-medium md:text-sm sm:!text-xs">
-              As a skilled full-stack developer, I am dedicated to turning ideas into innovative web applications. Explore my latest projects and articles, showcasing my expertise in React.js and web development.
+              As a skilled full-stack developer, I am dedicated to turning ideas and designs into innovative web and mobile applications. Feel free to explore my latest projects, showcasing my expertise in web and mobile development using different skills that I acquired during my years of professional experience and education.
               </p>
               <div className="mt-2 flex items-center self-start lg:self-center">
                 <Link

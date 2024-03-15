@@ -9,7 +9,7 @@ import proj1 from "../../public/images/projects/mayvis-capstone.jpg";
 import proj2 from "../../public/images/projects/swiperx.jpg";
 import proj3 from "../../public/images/projects/healthplus.jpg";
 import proj4 from "../../public/images/projects/portfolio-cover-image.jpg";
-import proj5 from "../../public/images/projects/agency-website-cover-image.jpg";
+import proj5 from "../../public/images/projects/websites.jpg";
 import proj6 from "../../public/images/projects/devdreaming.jpg";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -163,7 +163,7 @@ export default function Projects() {
   return (
     <>
       <Head>
-        <title>Modern Portfolio Built with Nextjs | Projects Page</title>
+        <title>Marc Portfolio | Projects Page</title>
         <meta
           name="description"
           content="Discover the latest webapp projects created by CodeBucks, a Next.js developer with 
@@ -177,7 +177,7 @@ export default function Projects() {
       >
         <Layout className="pt-16">
           <AnimatedText
-            text="Imagination Trumps Knowledge!"
+            text="To create is to bring life to ideas."
             className="mb-16 !text-8xl !leading-tight lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl"
           />
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
@@ -185,7 +185,7 @@ export default function Projects() {
               <FeaturedProject
                 type="Capstone Project"
                 title="Estimate Proposal Application"
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency."
+                summary="An application to streamline the process of creating detailed estimate proposals for clients across various industries. Built on React/Nextjs with MongoDB as database. The application facilitates the creation, customization, and management of estimates, allowing users to input project details, services, costs, and any other relevant information. It has a user-friendly dashboard that provides a comprehensive overview of all proposals, with features to edit, delete, or duplicate estimates as needed."
                 img={proj1}
                 link="https://mayvis-a.vercel.app/"
                 github="https://github.com/codebucks27/CryptoBucks-Final-Code"
@@ -213,28 +213,20 @@ export default function Projects() {
               <FeaturedProject
                 type="Portfolio Website"
                 title="React Portfolio Website"
-                summary="A professional portfolio website using React JS, Framer-motion, and Styled-components. It has smooth page transitions, cool background effects, unique design and it is mobile responsive."
+                summary="A professional portfolio website using React JS, Next JS, Framer-motion, and Styled-components. It has smooth page transitions, cool background effects, unique design and it is mobile responsive."
                 img={proj4}
-                link="https://devdreaming.com/videos/build-stunning-portfolio-website-react-js-framer-motion"
-                github="https://github.com/codebucks27/react-portfolio-final"
+                link="https://marcroy-portfolio.vercel.app/"
+                github="https://github.com/marcuzroy/portfolio"
               />
             </div>
-            <div className="col-span-6 sm:col-span-12">
-              <Project
-                type="Website Template"
+            <div className="col-span-12">
+              <FeaturedProject
+                type="Github Repositories"
+                title="School Projects and Assignments"
+                summary="A professional portfolio website using React JS, Next JS, Framer-motion, and Styled-components. It has smooth page transitions, cool background effects, unique design and it is mobile responsive."
                 img={proj5}
-                title="Agency Website Template"
-                link="https://devdreaming.com/videos/build-stunning-fashion-studio-website-with-reactJS-locomotive-scroll-gsap"
-                github="https://github.com/codebucks27/wibe-studio"
-              />
-            </div>
-            <div className="col-span-6 sm:col-span-12">
-              <Project
-                type="Blog Website"
-                img={proj6}
-                title="DevDreaming"
-                link="https://devdreaming.com"
-                github="https://github.com/codebucks27"
+                link="https://github.com/marcuzroy?tab=repositories&q=&type=public"
+                github="https://github.com/marcuzroy?tab=repositories&q=&type=public"
               />
             </div>
           </div>
