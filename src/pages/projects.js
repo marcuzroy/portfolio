@@ -8,9 +8,8 @@ import Link from "next/link";
 import proj1 from "../../public/images/projects/mayvis-capstone.jpg";
 import proj2 from "../../public/images/projects/swiperx.jpg";
 import proj3 from "../../public/images/projects/healthplus.jpg";
-import proj4 from "../../public/images/projects/portfolio-cover-image.jpg";
+import proj4 from "../../public/images/projects/portfolio-website.jpg";
 import proj5 from "../../public/images/projects/websites.jpg";
-import proj6 from "../../public/images/projects/devdreaming.jpg";
 import TransitionEffect from "@/components/TransitionEffect";
 
 const FramerImage = motion(Image);

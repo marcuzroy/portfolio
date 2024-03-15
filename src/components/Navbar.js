@@ -1,15 +1,11 @@
 import Link from "next/link";
-import React, { useState } from "react";
+import { useState } from "react";
 import Logo from "./Logo";
 import { useRouter } from "next/router";
 import {
-  DribbbleIcon,
-  GithubIcon,
   LinkedInIcon,
   MoonIcon,
-  PinterestIcon,
   SunIcon,
-  TwitterIcon,
 } from "./Icons";
 import { motion } from "framer-motion";
 import { useThemeSwitch } from "./Hooks/useThemeSwitch";
