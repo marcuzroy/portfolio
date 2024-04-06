@@ -222,7 +222,7 @@ export default function Projects() {
               <FeaturedProject
                 type="Github Repositories"
                 title="School Projects and Assignments"
-                summary="A professional portfolio website using React JS, Next JS, Framer-motion, and Styled-components. It has smooth page transitions, cool background effects, unique design and it is mobile responsive."
+                summary="A repository of my academic projects and assignments, showcasing a diverse array of web development work. You'll find a selection of applications and sites, each demonstrating the practical use of various web frameworks and packages."
                 img={proj5}
                 link="https://github.com/marcuzroy?tab=repositories&q=&type=public"
                 github="https://github.com/marcuzroy?tab=repositories&q=&type=public"
