@@ -187,7 +187,7 @@ export default function Projects() {
                 summary="An application to streamline the process of creating detailed estimate proposals for clients across various industries. Built on React/Nextjs with MongoDB as database. The application facilitates the creation, customization, and management of estimates, allowing users to input project details, services, costs, and any other relevant information. It has a user-friendly dashboard that provides a comprehensive overview of all proposals, with features to edit, delete, or duplicate estimates as needed."
                 img={proj1}
                 link="https://mayvis-a.vercel.app/"
-                github="https://github.com/codebucks27/CryptoBucks-Final-Code"
+                github="https://github.com/capstone-1232/mayvis-a"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
